@@ -1,13 +1,20 @@
 package eu.jobwave.lambda.service;
 
+import eu.jobwave.lambda.model.MailContents;
 import io.quarkus.mailer.Mailer;
 import lombok.RequiredArgsConstructor;
-import org.springframework.stereotype.Service;
+import lombok.extern.slf4j.Slf4j;
 
-@Service
+import javax.enterprise.context.ApplicationScoped;
+
+@Slf4j
+@ApplicationScoped
 @RequiredArgsConstructor
 public class MailService {
 
     private final Mailer mailer;
 
+    public void sendEmail(MailContents mailContents) {
+        log.debug("Mail contents: {}", mailContents);
+    }
 }

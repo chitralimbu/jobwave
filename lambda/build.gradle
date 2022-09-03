@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'io.quarkus'
+    id 'io.quarkus' version "${quarkusPlatformVersion}"
 }
 
 repositories {
@@ -13,7 +13,6 @@ dependencies {
     implementation 'io.quarkus:quarkus-amazon-lambda'
     implementation 'io.quarkus:quarkus-arc'
     implementation 'io.quarkus:quarkus-mailer'
-    implementation 'io.quarkus:quarkus-spring-di'
     compileOnly 'org.projectlombok:lombok:1.18.24'
     annotationProcessor 'org.projectlombok:lombok:1.18.24'
 
