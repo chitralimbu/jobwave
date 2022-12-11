@@ -1,6 +1,6 @@
-domain_name = "jobwave.eu"
-bucket_name = "jobwave.eu"
+domain_name = "jobwave.uk"
+bucket_name = "jobwave.uk"
 
 common_tags = {
-  Project = "jobwave"
+  Project = "jobwave.uk"
 }
