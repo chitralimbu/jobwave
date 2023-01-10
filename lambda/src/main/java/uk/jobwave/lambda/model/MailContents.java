@@ -1,4 +1,4 @@
-package eu.jobwave.lambda.model;
+package uk.jobwave.lambda.model;
 
 import lombok.Builder;
 import lombok.Data;

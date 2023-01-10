@@ -1,4 +1,4 @@
-package eu.jobwave.lambda;
+package uk.jobwave.lambda;
 
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 

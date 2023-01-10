@@ -1,4 +1,4 @@
-package eu.jobwave.lambda;
+package uk.jobwave.lambda;
 
 import org.junit.jupiter.api.Test;
 

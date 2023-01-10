@@ -20,7 +20,7 @@ dependencies {
     testImplementation 'io.rest-assured:rest-assured'
 }
 
-group 'eu.jobwave'
+group 'uk.jobwave'
 version '1.0.0'
 
 java {

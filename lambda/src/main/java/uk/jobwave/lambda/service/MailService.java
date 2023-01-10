@@ -1,6 +1,6 @@
-package eu.jobwave.lambda.service;
+package uk.jobwave.lambda.service;
 
-import eu.jobwave.lambda.model.MailContents;
+import uk.jobwave.lambda.model.MailContents;
 import io.quarkus.mailer.Mailer;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

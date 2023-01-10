@@ -12,6 +12,6 @@
         </Root>
         <Logger name="software.amazon.awssdk" level="WARN" />
         <Logger name="software.amazon.awssdk.request" level="DEBUG" />
-        <Logger name="eu.jobwave.lambda" level="DEBUG" />
+        <Logger name="uk.jobwave.lambda" level="DEBUG" />
     </Loggers>
 </Configuration>
