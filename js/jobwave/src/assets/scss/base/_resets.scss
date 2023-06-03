@@ -1,0 +1,111 @@
+:root {
+    // Colors
+    --clr-primary: #{$clr-primary};
+    --clr-dark-primary: #{$clr-dark-primary};
+    --clr-dark: #{$clr-dark};
+    --clr-gray: #{$clr-gray};
+    --clr-white: #{$clr-white};
+    --clr-light: #{$clr-light};
+    --clr-text: #{$clr-text};
+    --clr-body: #{$clr-body};
+    --primary-linear: #{$primary-linear};
+
+    // Font size
+    --fs-h1: #{$fs-h1};
+    --fs-h2: #{$fs-h2};
+    --fs-h3: #{$fs-h3};
+    --fs-h4: #{$fs-h4};
+    --fs-h5: #{$fs-h5};
+    --fs-h6: #{$fs-h6};
+    --fs-md: #{$fs-md};
+    --fs-sm: #{$fs-sm};
+    --fs-text: #{$fs-text};
+}
+
+body {
+    font-family: $primary-font;
+    font-size: var(--fs-text);
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--clr-text);
+    background-color: var(--clr-body);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $secondary-font;
+    color: var(--clr-dark);
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+}
+
+h4,
+h5,
+h6 {
+    font-weight: 600;
+}
+
+h1 {
+    font-size: var(--fs-h1);
+}
+
+h2 {
+    font-size: var(--fs-h2);
+}
+
+h3 {
+    font-size: var(--fs-h3);
+}
+
+h4 {
+    font-size: var(--fs-h4);
+}
+
+h5 {
+    font-size: var(--fs-h5);
+}
+
+h6 {
+    font-size: var(--fs-h6);
+}
+
+a {
+    color: var(--clr-text);
+    text-decoration: none;
+    @include transition;
+
+    &:hover {
+        color: var(--clr-primary);
+    }
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+::selection {
+    background-color: var(--clr-dark-primary);
+    color: var(--clr-white);
+}
+
+figure {
+    margin-bottom: 0;
+}
+
+.white{color: var(--clr-white);}

@@ -1,0 +1,21 @@
+<svg width="1920" height="450" viewBox="0 0 1920 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_202_2091" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="1920" height="450">
+<path d="M0 0H1920C1920 248.528 1718.53 450 1470 450H0V0Z" fill="#31ABDF"/>
+</mask>
+<g mask="url(#mask0_202_2091)">
+<circle opacity="0.3" cx="1329" cy="489" r="136" stroke="white" stroke-width="100"/>
+</g>
+<circle opacity="0.2" cx="1049.5" cy="359.5" r="19.5" fill="#4FB7E3"/>
+<circle opacity="0.2" cx="1327" cy="261" r="12" fill="#074E6A"/>
+<rect opacity="0.2" x="832" y="342" width="41" height="41" stroke="white" stroke-width="2"/>
+<rect opacity="0.2" x="862.5" y="332.5" width="20" height="20" stroke="#31ABDF" stroke-width="9"/>
+<circle opacity="0.3" cx="570" cy="172" r="14.5" stroke="#31ABDF"/>
+<circle opacity="0.3" cx="618.955" cy="120.846" r="2.328" transform="rotate(-120 618.955 120.846)" stroke="white"/>
+<circle opacity="0.3" cx="1213.86" cy="355.863" r="2.328" transform="rotate(-120 1213.86 355.863)" stroke="white"/>
+<path opacity="0.3" d="M563.744 107.625L564.794 106.76L566.239 108.514L567.955 107.1L568.779 108.1L567.063 109.514L568.507 111.268L567.458 112.133L566.013 110.379L564.284 111.803L563.46 110.803L565.189 109.379L563.744 107.625Z" fill="white"/>
+<path opacity="0.3" d="M641.744 165.625L642.794 164.76L644.239 166.514L645.955 165.1L646.779 166.1L645.063 167.514L646.507 169.268L645.458 170.133L644.013 168.379L642.284 169.803L641.46 168.803L643.189 167.379L641.744 165.625Z" fill="white"/>
+<path opacity="0.3" d="M1295.74 314.625L1296.79 313.76L1298.24 315.514L1299.96 314.1L1300.78 315.1L1299.06 316.514L1300.51 318.268L1299.46 319.133L1298.01 317.379L1296.28 318.803L1295.46 317.803L1297.19 316.379L1295.74 314.625Z" fill="white"/>
+<path opacity="0.3" d="M977.744 153.625L978.794 152.76L980.239 154.514L981.955 153.1L982.779 154.1L981.063 155.514L982.507 157.268L981.458 158.133L980.013 156.379L978.284 157.803L977.46 156.803L979.189 155.379L977.744 153.625Z" fill="white"/>
+<path opacity="0.2" d="M1017.42 221.25L1039.5 183L1061.58 221.25H1017.42Z" stroke="white" stroke-width="10"/>
+<path opacity="0.2" d="M1001.75 208.75L1019.5 178L1037.25 208.75H1001.75Z" stroke="#31ABDF" stroke-width="2"/>
+</svg>

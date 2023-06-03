@@ -1,0 +1,119 @@
+.page-title {
+    position: relative;
+
+
+    .breadcrumb {
+        font-size: var(--fs-sm);
+        font-weight: 500;
+        // letter-spacing: 4px;
+        background-color: rgba(49, 171, 223, .3);
+        padding: 14px 20px 14px 77px;
+        position: relative;
+        display: inline-flex;
+        margin-bottom: 5px;
+
+        .breadcrumb-item {
+            a {
+                color: var(--clr-white);
+            }
+
+            &::before {
+                color: var(--clr-white);
+            }
+        }
+
+        .active {
+            color: $clr-primary;
+        }
+
+        &::before {
+            content: "";
+            width: 37px;
+            height: 2px;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, .53);
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            left: 20px;
+        }
+    }
+
+    .banner-content {
+        height: 300px;
+
+        @include md {
+            height: 400px;
+
+        }
+
+        .banner-inner {
+            top: 50%;
+        }
+
+        .banner-inner {
+            position: relative;
+
+            &::before {
+                content: "";
+                width: 750px;
+                height: 550px;
+                background-image: url("./../img/page-title.svg");
+                position: absolute;
+                left: 20%;
+                bottom: 0;
+                pointer-events: none;
+            }
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        width: 308px;
+        height: 308px;
+        background-image: url("./../img/feature-shape.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        transform: translate(40%, 40%);
+        right: 20%;
+        bottom: -10%;
+        transition: all .3s ease-in-out;
+    }
+}
+
+.show-discription {
+    h5 {
+        line-height: 1.5;
+    }
+
+    .support-img {
+        height: 195px;
+        overflow: hidden;
+        border-radius: 50px;
+
+        @include md {
+            border-radius: 100px;
+
+        }
+    }
+
+    .discription-text {
+        @include md {
+
+            padding-left: 95px;
+            position: relative;
+
+            &::after {
+                content: "";
+                position: absolute;
+                top: 5px;
+                left: 0;
+                height: 4px;
+                border-radius: 5px;
+                width: 65px;
+                background-color: rgba($color: $clr-primary, $alpha: 0.5);
+            }
+        }
+    }
+}

@@ -1,181 +1,398 @@
 <template>
-  <div id="container">
-    <div id="wrapper">
-      <div id="form-container">
-        <div id="form-wrapper">
-          <form>
+  <section class="banner">
+    <div class="banner-slider">
+      <div class="banner-item">
+        <div class="banner-content">
+          <div class="container">
             <div class="row">
-              <div id="tell" class="col">Tell us about yourself ...</div>
+              <div class="col-md-7">
+                <img
+                  class="banner-image"
+                  data-animation-in="scaleIn"
+                  data-duration-in="10"
+                  src="@/assets/img/banner-image.jpg"
+                  alt="banner image"
+                />
+                <div class="banner-inner">
+                  <h2
+                    class="banner-subtitle white"
+                    data-animation-in="fadeInUp"
+                    data-delay-in="0.2"
+                  >
+                    JOB WAVE
+                  </h2>
+                  <h1
+                    class="banner-title white"
+                    data-animation-in="fadeInUp"
+                    data-delay-in="0.4"
+                  >
+                    A Trusted Global Network.
+                  </h1>
+                </div>
+              </div>
+              <!-- End of col -->
             </div>
-            <div class="row g-3">
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="First name"
-                  aria-label="First name"
-                  required
-                />
-              </div>
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Last name"
-                  aria-label="Last name"
-                  required
-                />
-              </div>
-            </div>
-            <div class="row g-3">
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Phone Number"
-                  aria-label="Phone Number"
-                  pattern="[0-9].*"
-                  required
-                />
-              </div>
-              <div class="col">
-                <input
-                  type="email"
-                  class="form-control"
-                  placeholder="my@email.com"
-                  aria-label="Email"
-                  required
-                />
-              </div>
-            </div>
-            <div class="row g-3">
-              <div class="col">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="More Details"
-                  aria-label="More Details"
-                />
-              </div>
-              <div class="col">
-                <input
-                  class="form-control"
-                  type="file"
-                  id="formFile"
-                  required
-                />
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <button id="submit-form" type="submit" class="btn btn-primary">
-                  Submit
-                </button>
-              </div>
-            </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+    <!-- End of banner slider -->
+  </section>
 
-  <div id="bottom-container">
-    <div id="bottom-wrapper">
-      <div class="row row-cols-8 bottom-grid">
-        <div class="col">housekeeping</div>
-        <div class="col">waiter</div>
-        <div class="col">cook</div>
-        <div class="col">cleaner</div>
-        <div class="col">agriculture</div>
-        <div class="col">butler</div>
-        <div class="col">cruise</div>
-        <div class="col">many more</div>
+  <section class="feature block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-title">Featured <span>Option.</span></h2>
+        </div>
+      </div>
+      <!-- End of row -->
+      <div class="row gy-50">
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <figure class="card-img">
+              <img src="@/assets/img/feature-01.jpg" alt="feature image" />
+            </figure>
+            <div class="card-body">
+              <div class="content-left">
+                <h3 class="card-title white">For Talent</h3>
+                <div class="description">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <!-- End of row -->
+                <div class="mt-4">
+                  <a href="job-list.html" class="btn btn-outline-light">
+                    <i class="fa-solid fa-briefcase"></i>
+                    Job Opportunities
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of card -->
+        </div>
+        <!-- End of col -->
+        <div class="col-md-12">
+          <div class="card feature-card">
+            <figure class="card-img">
+              <img src="@/assets/img/feature-02.jpg" alt="feature image" />
+            </figure>
+            <div class="card-body">
+              <div class="content-left">
+                <h3 class="card-title white">For Client</h3>
+                <div class="description">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout.
+                  </p>
+                </div>
+                <!-- End of row -->
+                <div class="mt-4">
+                  <a href="about.html" class="btn btn-outline-light">
+                    <i class="fa-solid fa-bell"></i>
+                    To Know More
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- End of card -->
+        </div>
+        <!-- End of col -->
       </div>
     </div>
-  </div>
+  </section>
 
-  <div id="footer-container">
-    <Footer />
-  </div>
+  <section class="jobs block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="wrap">
+            <h2 class="section-title">Featured <span>Option.</span></h2>
+            <!--            <div class="slider-buttons">
+              <button class="arrow arrow-prev" aria-label="button prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="arrow arrow-next" aria-label="button next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>-->
+          </div>
+        </div>
+      </div>
+      <!-- end of row -->
+      <div class="row">
+        <div class="col-md-12">
+          <div class="row jobs-slider">
+            <div
+              class="col-lg-4 slider-item"
+              v-for="(job, index) in jobsList"
+              :key="index"
+            >
+              <Job :image="job.image" :text="job.title"></Job>
+            </div>
+          </div>
+        </div>
+        <!-- end of col -->
+      </div>
+    </div>
+  </section>
+
+  <section class="block-sm pb-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="card feature-card feature-sm">
+            <figure class="card-img">
+              <img src="@/assets/img/feature-02.jpg" alt="feature image" />
+            </figure>
+            <div class="card-body">
+              <div class="content-left">
+                <h2 class="card-title mb-4">
+                  Working full-time ot part time jobs?
+                </h2>
+              </div>
+              <div class="button-group">
+                <a
+                  @click="this.$router.push('contact')"
+                  class="btn btn-primary"
+                >
+                  <i class="fa-solid fa-share"></i>
+                  Contact us
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- End of card -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="block">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <h2 class="section-title">Job Wave Key <span>2022.</span></h2>
+          <div class="description">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged.
+              <br /><br />
+              It was popularised in the 1960s with the release of Letraset
+              sheets containing Lorem Ipsum passages, and more recently with
+              desktop publishing software like Aldus PageMaker
+              including.Excepteur sint occaecat cupidatat non proident, sunt in
+              culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+        <!-- End of col -->
+        <div class="col-lg-5">
+          <figure class="thumbnail text-center mt-3 mt-md-0">
+            <img src="@/assets/img/jobwave-img-01.png" alt="smiling girl" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="share-information block pt-0">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-6 text-lg-center mb-3 mb-md-0">
+          <h2 class="section-title">Job Wave Key <span>2022.</span></h2>
+          <div class="description text-md-center">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's .
+            </p>
+          </div>
+        </div>
+        <!-- End of col -->
+        <div class="col-md-10 text-center">
+          <canvas id="shareChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials block">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section-title dark pe-0">
+            What People Say <span>About Us.</span>
+          </h2>
+        </div>
+        <!-- end of col -->
+        <div class="col-md-12">
+          <div class="testimonials-slider">
+            <!--            <div class="slider-buttons">
+              <button class="arrow arrow-prev" aria-label="button prev">
+                <i class="fa-solid fa-chevron-left"></i>
+              </button>
+              <button class="arrow arrow-next" aria-label="button next">
+                <i class="fa-solid fa-chevron-right"></i>
+              </button>
+            </div>-->
+            <div class="slider-content">
+              <div class="slider-item">
+                <div class="card testimonial-card">
+                  <div class="rating">
+                    <img src="@/assets/img/icon-star.svg" alt="star" />
+                    <img src="@/assets/img/icon-star.svg" alt="star" />
+                    <img src="@/assets/img/icon-star.svg" alt="star" />
+                    <img src="@/assets/img/icon-star.svg" alt="star" />
+                    <img src="@/assets/img/icon-star.svg" alt="star" />
+                  </div>
+                  <span class="card-slogan"
+                    >Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.</span
+                  >
+                  <div class="card-body">
+                    <div class="description">
+                      <p>
+                        “There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered alteration in
+                        some form, by injected humour, or randomised words which
+                        don't look even.
+                      </p>
+                      <p>
+                        slightly believable. If you are going to use a passage
+                        of Lorem Ipsum, you need to be sure there isn't anything
+                        embarrassing hidden in the middle of text.
+                      </p>
+                      <p>
+                        Lorem Ipsum, you need to be sure there isn't anything
+                        arrassing hidden in the middle of text.”
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card-clients">
+                    <figure class="avatar">
+                      <img src="@/assets/img/team-1.jpg" alt="team one" />
+                    </figure>
+                    <div class="card-content">
+                      <h3 class="client-name">Reman Das Shrestha</h3>
+                      <span class="position">Ceo of Hamrobazar</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End of slider item -->
+            </div>
+            <!-- End of slider content -->
+          </div>
+        </div>
+        <!-- End of card -->
+      </div>
+    </div>
+  </section>
+
+  <section class="our-location">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h2 class="section-title mb-75">
+            Company’s Operating <span>Continent.</span>
+          </h2>
+        </div>
+        <!-- end of col -->
+        <div class="col-md-12">
+          <figure class="thumbnail text-center">
+            <img src="@/assets/img/map.png" alt="map" />
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="clients-and-partners block pb-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 mb-5 text-center text-md-start">
+          <h2 class="section-title">Our <span>Clients.</span></h2>
+          <div class="description">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting.
+            </p>
+          </div>
+        </div>
+        <!-- End of col -->
+        <div class="col-lg-6 offset-lg-1 mb-5 text-center text-md-start">
+          <h2 class="section-title">Our <span>Partners.</span></h2>
+          <div class="client-area text-center text-md-start">
+            <div class="row">
+              <div class="col-lg-3">
+                <img src="@/assets/img/nau.jpeg" alt="client" />
+              </div>
+              <div class="col-lg-3">
+                <img src="@/assets/img/nh.jpeg" alt="client" />
+              </div>
+              <div class="col-lg-3">
+                <img src="@/assets/img/tivoli.jpeg" alt="client" />
+              </div>
+              <div class="col-lg-3">
+                <img src="@/assets/img/schroll.jpg" alt="client" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </template>
 
 <script>
-import Footer from "@/components/Footer";
-
+import Job from "@/components/Job";
 export default {
   name: "Home",
-  components: { Footer },
+  data() {
+    return {
+      jobsList: [
+        {
+          title: "Manufacturing",
+          image: "manufacturing.jpg",
+        },
+        {
+          title: "Construction",
+          image: "construction.jpg",
+        },
+        {
+          title: "Farm/Agriculture",
+          image: "farm.jpg",
+        },
+        {
+          title: "Hospitality",
+          image: "hotel.jpg",
+        },
+        {
+          title: "Health/Medical",
+          image: "healthcare.jpg",
+        },
+        {
+          title: "Education/Consultancy",
+          image: "education.jpg",
+        },
+      ],
+    };
+  },
+  components: { Job },
 };
 </script>
 
 <style scoped>
-#container {
-  width: 100%;
-}
-
-#wrapper {
-  position: relative;
-  width: 100%;
-  background-image: url("../../public/img/work.jpg");
-  background-size: cover;
-  background-color: skyblue;
-  height: 70vh;
-}
-
-#bottom-container {
-  width: 100%;
-  height: 100%;
-}
-
-#bottom-wrapper {
-  width: 100%;
-  background-color: rgb(27, 199, 255);
-  height: 10.9vh;
-}
-
-#form-container {
-  height: 80%;
-  background-color: white;
-  width: 60vw;
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#submit-form {
-  width: 100%;
-  border: none;
-  background-color: rgb(27, 175, 255);
-}
-
-.col {
-  padding-top: 25px;
-  font-family: "Trebuchet MS", sans-serif;
-}
-
-#form-wrapper {
-  width: 85%;
-  margin: 0;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-#tell {
-  font-size: 40px;
-}
-
-.bottom-grid {
-  color: white;
-  text-align: center;
-  margin-left: 70px;
-  margin-right: 100px;
-}
-
-#footer-container {
-  max-width: 100vw;
+.slider-item {
+  margin-top: 5px;
 }
 </style>

@@ -1,0 +1,312 @@
+.scaleIn {
+    animation-name: scaleIn;
+}
+
+.zoomIn {
+    animation-name: zoomIn;
+}
+
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+
+.fadeIn {
+    animation-name: fadeIn;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+}
+
+.section-title {
+    display: inline-block;
+    margin-bottom: 24px;
+    position: relative;
+    padding-right: 28px;
+
+    @include md {
+        margin-bottom: 50px;
+
+    }
+
+    &::after {
+        content: "";
+        width: 28px;
+        height: 40px;
+        background-image: url("./../img/title-shape.svg");
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 10px;
+        top: -7px;
+
+        @include lg {
+            top: -20px;
+            width: 45px;
+            height: 65px;
+        }
+    }
+
+    span {
+        color: var(--clr-primary);
+    }
+
+    &.dark {
+        color: var(--clr-white);
+
+        &::after {
+            background-image: url("./../img/title-shape-dark.svg");
+        }
+
+        span {
+            color: var(--clr-dark-primary);
+        }
+    }
+}
+
+.title-color {
+    color: var(--clr-primary);
+}
+
+.description {
+    p:last-of-type {
+        margin-bottom: 0;
+    }
+}
+
+.gy-50 {
+    --bs-gutter-y: 50px;
+}
+
+.block {
+    padding: 80px 0;
+}
+
+.block-sm {
+    padding: 50px 0;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-75 {
+    margin-bottom: 75px;
+}
+
+
+.desc-btn {
+    gap: 10px;
+}
+
+.socila-items {
+    gap: 10px;
+
+}
+
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    background: $clr-primary;
+}
+
+.nav-pills .nav-link {
+    color: $clr-primary;
+}
+
+.modal {
+    z-index: 4000;
+
+    $borderRadius: 15px;
+
+    .modal-header {
+        border-radius: $borderRadius $borderRadius 0 0;
+        /* fallback for old browsers */
+
+
+
+    }
+
+    .modal-content {
+        border-radius: $borderRadius;
+    }
+
+    // position: absolute;
+    .modal-dialog {
+        position: relative;
+
+        // .close {
+        //     position: absolute;
+        //     z-index: 10000;
+        //     background: $clr-primary;
+        //     top: 10px;
+        //     right: 10px;
+        //     cursor: pointer;
+        // }
+    }
+}
+
+
+.s-content {
+    h6 {
+        a {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+        }
+    }
+}
+
+.social-items {
+    gap: 10px;
+}
+
+.w-md-50 {
+    width: 100%;
+
+    @include md {
+
+        width: 50%;
+    }
+}
+
+
+.offcanvas-header .btn-close {
+    &:focus {
+        box-shadow: none;
+    }
+}
+
+
+.images-gallery {
+    gap: 10px;
+}
+
+
+.list-results {
+    flex-direction: column;
+    align-items: center;
+
+    @include md {
+        flex-direction: row;
+    }
+
+
+
+    .click-menu {
+        margin-top: 16px;
+        display: flex;
+        gap: 10px;
+
+        @include md {
+            margin-top: 0;
+            display: flex;
+            gap: 10px;
+            flex-direction: row;
+        }
+    }
+}
+
+.job-list {
+    flex-direction: column;
+    gap: 10px;
+
+    @include md {
+        flex-direction: row;
+    }
+}
+
+
+.nice-select {
+    border: 1px solid $clr-primary;
+    opacity: 0.5;
+    border-radius: 50px;
+
+    &:focus {
+        border: 1px solid $clr-primary;
+
+    }
+
+    .list {
+        border-radius: 15px !important;
+        margin-top: 5px !important;
+    }
+}
+
+.niceSelect.open {
+
+    opacity: 1;
+}
+
+
+
+.blog-full.inner-info {
+    padding: 20px;
+
+    @include md {
+        padding: 30px;
+    }
+}
+
+
+
+
+.progress-bar {
+    background-color: $clr-primary;
+}
+
+select {
+    padding-right: 20px;
+    background: url('../img/arrow-down.svg') no-repeat;
+    background-position: calc(100% - 20px) center;
+    -webkit-appearance: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.rating-main {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+
+    span {
+        font-size: 12px;
+        line-height: 1;
+    }
+
+}
+
+.rating {
+    display: flex;
+    gap: 3px;
+
+    span {
+        font-size: 10px;
+    }
+}
+
+.nav-tabs {
+    .nav-item {
+        border-radius: 50px;
+
+        button {
+            border-radius: 50px;
+        }
+    }
+}
+
+
+
+.job-progress {
+    span {
+        display: inline-block;
+        margin-bottom: 5px;
+    }
+}

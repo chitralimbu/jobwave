@@ -1,0 +1,200 @@
+.banner {
+    position: relative;
+    border-radius: 0px 0px 20vh 0px;
+
+    @include lg {
+
+        border-radius: 0px 0px 50vh 0px;
+    }
+
+    overflow: hidden;
+
+    &-content {
+        height: 700px;
+        position: relative;
+        isolation: isolate;
+        display: flex;
+        align-items: center;
+        color: var(--clr-white);
+
+        @include md {
+            height: 700px;
+
+        }
+
+        &>* {
+            flex: 1;
+            z-index: 2;
+        }
+
+        .banner-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 1 !important;
+            filter: brightness(60%);
+        }
+
+        .banner-subtitle {
+            font-size: var(--fs-sm);
+            font-weight: 500;
+            letter-spacing: 6px;
+            background-color: rgba($clr-primary, 30%);
+            padding: 14px 20px 14px 77px;
+            display: inline-block;
+            position: relative;
+            margin-bottom: 5px;
+
+            &::before {
+                content: "";
+                width: 37px;
+                height: 2px;
+                border-radius: 5px;
+                background-color: rgba($clr-white, 53%);
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                left: 20px;
+            }
+        }
+
+        .banner-title {
+            margin: 10px 0 20px;
+            color: var(--clr-white);
+        }
+    }
+
+    .banner-inner {
+        position: relative;
+
+        &::before {
+            content: "";
+            width: 750px;
+            height: 550px;
+            background-image: url("./../img/banner-shapes.svg");
+            position: absolute;
+            left: 20%;
+            top: -50%;
+            pointer-events: none;
+        }
+    }
+
+    &-social {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        pointer-events: none;
+
+        .social-title {
+            writing-mode: vertical-lr;
+            transform: rotate(180deg);
+            margin: 0;
+            color: var(--clr-white);
+            font-size: var(--fs-md);
+            font-weight: 600;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            order: 2;
+            padding-bottom: 40px;
+            position: relative;
+            background: var(--clr-primary);
+            padding: 8px;
+            border-radius: 5px;
+
+            &::after {
+                content: "";
+                width: 1px;
+                height: 20px;
+                border-radius: 5px;
+                background-color: var(--clr-primary);
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+
+        .social-content {
+            pointer-events: all;
+            display: inline-flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 20px;
+            position: fixed;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1000;
+
+            a {
+                color: var(--clr-white);
+                font-size: 15px;
+            }
+        }
+
+        .social-list {
+            li a {
+                i {
+                    background: var(--clr-primary);
+                    border-radius: 5px;
+                    text-align: center;
+                    width: 35px;
+                    height: 35px;
+                    line-height: 2.3;
+                    margin-bottom: 10px;
+
+                    &:not(:last-child) {
+                        margin-bottom: 15px;
+                    }
+                }
+
+                &:hover i {
+                    background-color: #1384b5;
+                    color: var(--clr-white);
+                }
+            }
+        }
+    }
+
+    .decoration {
+        position: absolute;
+
+        &.triangle {
+            bottom: 10%;
+            right: 30%;
+            animation: floatingY 6s infinite;
+        }
+
+        &.rect {
+            top: 30%;
+            right: 40%;
+            animation: floatingX 6s infinite;
+        }
+
+        &.circle {
+            animation: zoomEffect 6s infinite;
+
+            &:nth-child(3) {
+                top: 30%;
+                right: 25%;
+            }
+        }
+    }
+}
+
+.banner-social .social-content {
+    display: none;
+
+    @include lg {
+
+        display: flex;
+    }
+}

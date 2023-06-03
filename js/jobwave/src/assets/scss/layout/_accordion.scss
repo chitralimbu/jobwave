@@ -1,0 +1,31 @@
+.accordion {
+
+    .accordion-item {
+        background-color: transparent;
+        margin-bottom: 10px;
+        border: 0;
+
+
+        .accordion-header {
+            background-color: $clr-primary;
+            border-radius: 50px;
+            border: 0;
+
+            .accordion-button {
+                background-color: transparent;
+                color: $clr-white;
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+                &::after {
+                    color: $clr-white !important;
+                    filter: brightness(0) invert(1);
+                }
+            }
+        }
+
+
+    }
+}
