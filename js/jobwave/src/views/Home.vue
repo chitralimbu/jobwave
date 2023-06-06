@@ -10,7 +10,7 @@
                   class="banner-image"
                   data-animation-in="scaleIn"
                   data-duration-in="10"
-                  src="@/assets/img/banner-image.jpg"
+                  src="@/assets/img/recruitment.jpg"
                   alt="banner image"
                 />
                 <div class="banner-inner">
@@ -43,7 +43,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="section-title">Featured <span>Option.</span></h2>
+          <h2 class="section-title">Work with us</h2>
         </div>
       </div>
       <!-- End of row -->
@@ -51,17 +51,13 @@
         <div class="col-md-12">
           <div class="card feature-card">
             <figure class="card-img">
-              <img src="@/assets/img/feature-01.jpg" alt="feature image" />
+              <img src="@/assets/img/for-talent.jpg" alt="feature image" />
             </figure>
             <div class="card-body">
               <div class="content-left">
                 <h3 class="card-title white">For Talent</h3>
                 <div class="description">
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout.
-                  </p>
+                  <p></p>
                 </div>
                 <!-- End of row -->
                 <div class="mt-4">
@@ -79,17 +75,13 @@
         <div class="col-md-12">
           <div class="card feature-card">
             <figure class="card-img">
-              <img src="@/assets/img/feature-02.jpg" alt="feature image" />
+              <img src="@/assets/img/for-client-2.jpg" alt="feature image" />
             </figure>
             <div class="card-body">
               <div class="content-left">
                 <h3 class="card-title white">For Client</h3>
                 <div class="description">
-                  <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout.
-                  </p>
+                  <p></p>
                 </div>
                 <!-- End of row -->
                 <div class="mt-4">
@@ -113,7 +105,7 @@
       <div class="row">
         <div class="col-md-12">
           <div class="wrap">
-            <h2 class="section-title">Featured <span>Option.</span></h2>
+            <h2 class="section-title">Featured <span>Industries</span></h2>
             <!--            <div class="slider-buttons">
               <button class="arrow arrow-prev" aria-label="button prev">
                 <i class="fa-solid fa-chevron-left"></i>
@@ -149,13 +141,11 @@
         <div class="col-md-12">
           <div class="card feature-card feature-sm">
             <figure class="card-img">
-              <img src="@/assets/img/feature-02.jpg" alt="feature image" />
+              <img src="@/assets/img/work.jpg" alt="feature image" />
             </figure>
             <div class="card-body">
               <div class="content-left">
-                <h2 class="card-title mb-4">
-                  Working full-time ot part time jobs?
-                </h2>
+                <h2 class="card-title mb-4">Full-time or part time jobs?</h2>
               </div>
               <div class="button-group">
                 <a
@@ -178,55 +168,36 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-7">
-          <h2 class="section-title">Job Wave Key <span>2022.</span></h2>
+          <h2 class="section-title">Job Wave: Who we are</h2>
           <div class="description">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged.
-              <br /><br />
-              It was popularised in the 1960s with the release of Letraset
-              sheets containing Lorem Ipsum passages, and more recently with
-              desktop publishing software like Aldus PageMaker
-              including.Excepteur sint occaecat cupidatat non proident, sunt in
-              culpa qui officia deserunt mollit anim id est laborum.
+              JOB WAVE Is the realization of a long-held dream, where
+              collaboration with the customer is central. Aware of the
+              surrounding market, we stand out for our great responsiveness in
+              services to our Clients, having been expanding its areas of
+              intervention, in order to face respond positively to the new
+              demands of the market. We propose a partnership that aims at the
+              success of the Client, where delivery, dedication and
+              professionalism are essential in the relationship and mission
+              given. We are the solution you need for temporary worker needs!
             </p>
           </div>
         </div>
         <!-- End of col -->
         <div class="col-lg-5">
           <figure class="thumbnail text-center mt-3 mt-md-0">
-            <img src="@/assets/img/jobwave-img-01.png" alt="smiling girl" />
+            <img
+              class="founder-img"
+              src="@/assets/img/founder2.jpg"
+              alt="smiling girl"
+            />
           </figure>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="share-information block pt-0">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-6 text-lg-center mb-3 mb-md-0">
-          <h2 class="section-title">Job Wave Key <span>2022.</span></h2>
-          <div class="description text-md-center">
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's .
-            </p>
-          </div>
-        </div>
-        <!-- End of col -->
-        <div class="col-md-10 text-center">
-          <canvas id="shareChart"></canvas>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="testimonials block">
+  <!--  <section class="testimonials block">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
@@ -234,17 +205,17 @@
             What People Say <span>About Us.</span>
           </h2>
         </div>
-        <!-- end of col -->
+        &lt;!&ndash; end of col &ndash;&gt;
         <div class="col-md-12">
           <div class="testimonials-slider">
-            <!--            <div class="slider-buttons">
+            &lt;!&ndash;            <div class="slider-buttons">
               <button class="arrow arrow-prev" aria-label="button prev">
                 <i class="fa-solid fa-chevron-left"></i>
               </button>
               <button class="arrow arrow-next" aria-label="button next">
                 <i class="fa-solid fa-chevron-right"></i>
               </button>
-            </div>-->
+            </div>&ndash;&gt;
             <div class="slider-content">
               <div class="slider-item">
                 <div class="card testimonial-card">
@@ -289,15 +260,15 @@
                   </div>
                 </div>
               </div>
-              <!-- End of slider item -->
+              &lt;!&ndash; End of slider item &ndash;&gt;
             </div>
-            <!-- End of slider content -->
+            &lt;!&ndash; End of slider content &ndash;&gt;
           </div>
         </div>
-        <!-- End of card -->
+        &lt;!&ndash; End of card &ndash;&gt;
       </div>
     </div>
-  </section>
+  </section>-->
 
   <section class="our-location">
     <div class="container">
@@ -394,5 +365,9 @@ export default {
 <style scoped>
 .slider-item {
   margin-top: 5px;
+}
+
+.founder-img {
+  border-radius: 20px;
 }
 </style>

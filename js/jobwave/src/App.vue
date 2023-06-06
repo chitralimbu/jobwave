@@ -52,24 +52,24 @@
                     <li class="nav-item">
                       <router-link class="nav-link" to="/">Home</router-link>
                     </li>
-                    <li class="nav-item">
+<!--                    <li class="nav-item">
                       <router-link class="nav-link" to="/about"
                         >About</router-link
                       >
-                    </li>
+                    </li>-->
                     <li class="nav-item dropdown">
                       <a class="nav-link" href="candidate-lists.html"
                         >For Candidates</a
                       >
                     </li>
                     <li class="nav-item dropdown">
-                      <a class="nav-link" href="company-lists.html"
-                        >For Company</a
+                      <router-link class="nav-link" to="/about"
+                        >For Clients</router-link
                       >
                     </li>
-                    <li class="nav-item">
+<!--                    <li class="nav-item">
                       <a class="nav-link" href="blog.html">Blog</a>
-                    </li>
+                    </li>-->
                     <li class="nav-item">
                       <router-link class="nav-link" to="/contact"
                         >Contact</router-link
@@ -250,3 +250,4 @@
 </template>
 
 <style scoped></style>
+<script setup></script>

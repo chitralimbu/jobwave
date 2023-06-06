@@ -9,7 +9,7 @@
                 class="banner-image"
                 data-animation-in="scaleIn"
                 data-duration-in="10"
-                src="@/assets/img/about-banner.jpg"
+                src="@/assets/img/business.jpg"
                 alt="banner image"
               />
               <div class="banner-inner">
@@ -19,7 +19,7 @@
                       <a href="index.html">Home</a>
                     </li>
                     <li class="breadcrumb-item active" aria-current="page">
-                      About
+                      For Clients
                     </li>
                   </ol>
                 </nav>
@@ -46,9 +46,8 @@
         <div class="col-lg-6">
           <h2 class="section-title">Our <span>Mission.</span></h2>
           <h5>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words but the majority which.
+            JOB WAVE - JOB TEMPORÁRIO LDA is the realization of a long-held
+            dream, where collaboration with the customer is central.
           </h5>
         </div>
         <!-- col end  -->
@@ -56,7 +55,7 @@
         <div class="col-lg-6">
           <figure class="support-img mt-3 mt-md-0">
             <img
-              src="@/assets/img/building.jpg"
+              src="@/assets/img/mission.jpg"
               alt="support-img"
               class="w-100 h-100"
             />
@@ -68,16 +67,13 @@
       <div class="row mt-5">
         <div class="col-lg-5 offset-lg-3">
           <p class="discription-text">
-            All the Lorem Ipsum generators on the Internet tend to repeat
-            predefined chunks as necessary, making this the first true generator
-            on the Internet. It uses a dictionary of over 200.
-          </p>
-        </div>
-        <div class="col-lg-4">
-          <p>
-            All the Lorem Ipsum generators on the Internet tend to repeat
-            predefined chunks as necessary, making this the first true generator
-            on the Internet. It uses a dictionary of over 200.
+            Aware of the surrounding market, we stand out for our great
+            responsiveness in services to our Clients, having been expanding its
+            areas of intervention, in order to face and respond positively to
+            the new demands of the market. We propose a partnership that aims at
+            the success of the client, where delivery, dedication and
+            professionalism are essential in the relationship and mission given.
+            We are the solution you need for temporary worker needs!
           </p>
         </div>
       </div>
@@ -92,7 +88,7 @@
         <div class="col-12">
           <div class="showcase-wrapper position-relative">
             <figure class="main-showcase">
-              <img src="@/assets/img/room.jpg" alt="main-showcase" />
+              <img src="@/assets/img/vision.jpg" alt="main-showcase" />
             </figure>
             <figure class="circle-deco position-absolute">
               <img src="@/assets/img/feature-shape.svg" alt="feature-shape" />
@@ -102,10 +98,10 @@
                 <div class="vision-content">
                   <h2 class="section-title">Our <span>Vision.</span></h2>
                   <p class="mb-0">
-                    All the Lorem Ipsum generators on the Internet tend to
-                    repeat predefined chunks as necessary, making this the first
-                    true generator on the Internet. It uses a dictionary of over
-                    200.
+                    JOB WAVE seeks to respond quickly to needs of its clients,
+                    guaranteeing a permanent follow-up, so that this so we can
+                    work in partnership. We are convinced that when we work in
+                    together we will be excellent partners in business.
                   </p>
                 </div>
               </div>
@@ -122,7 +118,7 @@
       <div class="row">
         <div class="col-lg-6">
           <div class="value-content">
-            <h2 class="section-title mb-0">Our <span>Value.</span></h2>
+            <h2 class="section-title mb-0">Our <span>Values.</span></h2>
           </div>
         </div>
         <!-- col end  -->
@@ -131,23 +127,11 @@
         <div class="col-12">
           <ul class="list">
             <li>
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the.
+              Increasingly customize and improve the our services to our Client.
             </li>
-            <li>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words but the majority which.
-            </li>
-            <li>
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the.
-            </li>
-            <li>
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words but the majority which.
-            </li>
+            <li>Become excellent partners to your business</li>
+            <li>Delivery, dedication and professionalism</li>
+            <li>Respond positively to the demands of the market</li>
           </ul>
         </div>
       </div>
@@ -193,7 +177,7 @@ export default {
     return {
       people: [
         {
-          image: "team-4.jpg",
+          image: "founder.jpg",
           name: "Khaman Singh Gurung",
           title: "Founder",
           instagram: "#",
