@@ -139,6 +139,30 @@
   </section>
   <!-- value section end  -->
 
+  <section class="show-discription block" id="mission">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <h2 class="section-title">Proposal.</h2>
+          <h5><a class="btn btn-primary" href="/pdf/proposal.pdf" download="proposal.pdf">Download Proposal</a></h5>
+        </div>
+        <!-- col end  -->
+
+        <div class="col-lg-6">
+          <figure class="support-img mt-3 mt-md-0">
+            <img
+              src="@/assets/img/mission.jpg"
+              alt="support-img"
+              class="w-100 h-100"
+            />
+          </figure>
+        </div>
+      </div>
+      <!-- End of row -->
+    </div>
+  </section>
+  <!-- end of mission section  -->
+
   <section class="team block">
     <div class="container">
       <div class="row">

@@ -52,7 +52,7 @@
                     <li class="nav-item">
                       <router-link class="nav-link" to="/">Home</router-link>
                     </li>
-<!--                    <li class="nav-item">
+                    <!--                    <li class="nav-item">
                       <router-link class="nav-link" to="/about"
                         >About</router-link
                       >
@@ -67,7 +67,7 @@
                         >For Clients</router-link
                       >
                     </li>
-<!--                    <li class="nav-item">
+                    <!--                    <li class="nav-item">
                       <a class="nav-link" href="blog.html">Blog</a>
                     </li>-->
                     <li class="nav-item">
@@ -126,20 +126,28 @@
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="social links">
+                <a
+                  href="https://instagram.com/gurkharecruitment?igshid=OGQ5ZDc2ODk2ZA=="
+                  target="_blank"
+                  aria-label="social links"
+                >
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="social links">
-                  <i class="fa-brands fa-twitter"></i>
+                <a
+                  href="https://wa.me/351916047044"
+                  target="_blank"
+                  aria-label="social links"
+                >
+                  <i class="fa-brands fa-whatsapp"></i>
                 </a>
               </li>
-              <li>
+              <!--              <li>
                 <a href="#" aria-label="social links">
                   <i class="fa-brands fa-linkedin-in"></i>
                 </a>
-              </li>
+              </li>-->
             </ul>
           </div>
           <!-- End of social content -->
@@ -159,7 +167,7 @@
             </a>
           </div>
           <!-- col-end  -->
-          <div class="col-12">
+<!--          <div class="col-12">
             <div class="widget useful-links">
               <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -176,9 +184,9 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div>-->
           <!-- col-end  -->
-          <div class="col-12">
+          <!--          <div class="col-12">
             <div class="widget info-list">
               <ul class="nav justify-content-center">
                 <li class="nav-item">
@@ -201,28 +209,35 @@
                 </li>
               </ul>
             </div>
-          </div>
+          </div>-->
           <!-- col-end  -->
           <div class="col-12">
             <ul class="social-link d-flex justify-content-center">
               <li>
-                <a href="#" aria-label="social links">
+                <a
+                  href="https://www.facebook.com/geral.grstt/"
+                  target="_blank"
+                  aria-label="social links"
+                >
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="social links">
+                <a
+                  href="https://instagram.com/gurkharecruitment?igshid=OGQ5ZDc2ODk2ZA=="
+                  target="_blank"
+                  aria-label="social links"
+                >
                   <i class="fa-brands fa-instagram"></i>
                 </a>
               </li>
               <li>
-                <a href="#" aria-label="social links">
-                  <i class="fa-brands fa-twitter"></i>
-                </a>
-              </li>
-              <li>
-                <a href="#" aria-label="social links">
-                  <i class="fa-brands fa-linkedin-in"></i>
+                <a
+                  href="https://wa.me/351916047044"
+                  target="_blank"
+                  aria-label="social links"
+                >
+                  <i class="fa-brands fa-whatsapp"></i>
                 </a>
               </li>
             </ul>
