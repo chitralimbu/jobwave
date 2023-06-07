@@ -85,7 +85,7 @@
                 </div>
                 <!-- End of row -->
                 <div class="mt-4">
-                  <a href="about.html" class="btn btn-outline-light">
+                  <a href="/clients" class="btn btn-outline-light">
                     <i class="fa-solid fa-bell"></i>
                     To Know More
                   </a>
@@ -295,7 +295,7 @@
           <h2 class="section-title">Our <span>Clients.</span></h2>
           <div class="description">
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting.
+<!--              Lorem Ipsum is simply dummy text of the printing and typesetting.-->
             </p>
           </div>
         </div>

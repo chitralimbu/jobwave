@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import About from "../views/About";
 import Contact from "../views/Contact";
@@ -10,7 +10,7 @@ const routes = [
     component: Home,
   },
   {
-    path: "/about",
+    path: "/clients",
     name: "About",
     component: About,
   },
@@ -22,7 +22,7 @@ const routes = [
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
   scrollBehavior(to, from) {
     // always scroll to top

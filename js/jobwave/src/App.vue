@@ -49,7 +49,7 @@
                 </div>
                 <div class="offcanvas-body">
                   <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-toggle="offcanvas">
                       <router-link class="nav-link" to="/">Home</router-link>
                     </li>
                     <!--                    <li class="nav-item">
@@ -57,20 +57,20 @@
                         >About</router-link
                       >
                     </li>-->
-                    <li class="nav-item dropdown">
-                      <a class="nav-link" href="candidate-lists.html"
-                        >For Candidates</a
+                    <li class="nav-item" data-bs-toggle="offcanvas">
+                      <router-link class="nav-link" to="candidate-lists.html"
+                        >For Candidates</router-link
                       >
                     </li>
-                    <li class="nav-item dropdown">
-                      <router-link class="nav-link" to="/about"
+                    <li class="nav-item" data-bs-toggle="offcanvas">
+                      <router-link class="nav-link" to="/clients"
                         >For Clients</router-link
                       >
                     </li>
                     <!--                    <li class="nav-item">
                       <a class="nav-link" href="blog.html">Blog</a>
                     </li>-->
-                    <li class="nav-item">
+                    <li class="nav-item" data-bs-toggle="offcanvas">
                       <router-link class="nav-link" to="/contact"
                         >Contact</router-link
                       >
